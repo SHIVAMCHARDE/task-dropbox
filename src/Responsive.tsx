@@ -48,7 +48,7 @@ const Responsive: React.FC = () => {
   }, []);
 
   return (
-    <div className="h-[100%] bg-white">
+    <div className="min-h-[132vh] bg-white">
     
       <div ref={triggerRef} className="h-[1px]"></div>
 
